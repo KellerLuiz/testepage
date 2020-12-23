@@ -1,0 +1,1257 @@
+body {
+    font-family: muli, sans-serif
+}
+
+p {
+    margin-bottom: 20px
+}
+
+h1,
+h2 {
+    font-weight: 800
+}
+
+h3 {
+    font-weight: 700
+}
+
+p,
+h1,
+h2 {
+    line-height: 1.5em
+}
+
+img {
+    max-width: 100%
+}
+
+strong,
+b {
+    font-weight: 700
+}
+
+.header {
+    background-color: #000;
+    padding: 15px 30px 70px;
+    background: url(../img/bg-header.jpg) no-repeat;
+    background-size: cover
+}
+
+.logo {
+    margin: 0 auto;
+    display: block
+}
+
+.clock {
+    color: #fff;
+    font-size: .94em;
+    border-right: solid #fff 3px;
+    line-height: 1.5em
+}
+
+.clock i {
+    color: #fff;
+    font-size: 2.5em;
+    float: left;
+    margin-right: 15px;
+    margin-top: 5px
+}
+
+.bt-rastrear {
+    padding: 15px 20px;
+    color: #fff;
+    border: solid 3px #01BE01;
+    text-align: center;
+    border-radius: 6px;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    transition: all 400ms ease;
+    position: relative;
+    z-index: 3
+}
+
+.bt-rastrear:hover {
+    text-decoration: none;
+    color: #fff
+}
+
+.slide-bg {
+    background: #f000
+}
+
+.slide-bg:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #01BE01;
+    border-radius: 3px;
+    transition: all .8s ease;
+    z-index: -1
+}
+
+.slide-bg:hover:before {
+    width: 100%
+}
+
+.header h1 {
+    font-size: 3.5em;
+    color: #01BE01;
+    font-style: italic;
+    text-shadow: #fff -4px 1px 3px
+}
+
+.header p {
+    color: #fff;
+    font-weight: 600;
+    font-size: 2.5em;
+    margin: 0;
+    font-style: italic
+}
+
+.progress {
+    height: 40px;
+    font-size: 1.2em;
+    margin: 15px 0
+}
+
+.progress-bar {
+    background-color: #01BE01
+}
+
+.loader {
+    margin: 15px auto
+}
+
+.loader p {
+    font-size: 1.2em;
+    font-style: normal
+}
+
+.medida {
+    background: linear-gradient(#01BE01, #01BE01);
+    padding: 20px 0 8px;
+    text-align: center;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    position: relative;
+    bottom: 33px;
+    color: #fff;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
+    font-size: 2.5em;
+    box-shadow: 1px 10px 10px #808080b8
+}
+
+.medida b {
+    color: #ff0
+}
+
+.medida img {
+    width: 400px
+}
+
+.anvisa {
+    background-color: #fff;
+    padding: 30px 0
+}
+
+.anvisa h2 {
+    font-size: 28px!important
+}
+
+.oquee h2 {
+    font-size: 2.2em;
+    color: #01BE01;
+    margin-bottom: 10px;
+    text-transform: uppercase
+}
+
+.oquee h3 {
+    font-size: 1.5em;
+    margin-bottom: 25px;
+}
+
+.oquee p {
+    font-size: 1.2em
+}
+
+.como-funciona {
+    padding: 50px 0
+}
+
+.como-funciona h2 {
+    font-size: 2.2em;
+    color: #01BE01;
+    margin-bottom: 10px;
+    text-transform: uppercase
+}
+
+.como-funciona h3 {
+    font-size: 1.5em;
+    color: #01BE01;
+    margin-bottom: 25px;
+    color: gray
+}
+
+.como-funciona p {
+    font-size: 1.2em
+}
+
+.bt-check-fluid {
+    padding: 30px 0;
+    position: relative
+}
+
+.bt-fluid {
+    background: #01BE01;
+    text-align: center;
+    display: block;
+    color: #fff;
+    padding: 20px 5px;
+    border-radius: 6px;
+    font-size: 1.5em;
+    font-weight: 800;
+    margin: 0 auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .54);
+    z-index: 3;
+    transition: all .5s
+}
+
+.bt-fluid:hover {
+    color: #fff;
+    text-decoration: none;
+    transform: scale(1.1)
+}
+
+.slide-bg2 {
+    background: #01BE01
+}
+
+.slide-bg2:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #01BE00;
+    border-radius: 3px;
+    transition: all .8s ease;
+    z-index: -1
+}
+
+.slide-bg2:hover:before {
+    width: 100%
+}
+
+.bt-check-fluid:before {
+    content: '';
+    width: 100%;
+    height: 0;
+    border: dashed #959393 1px;
+    position: absolute;
+    top: 50%
+}
+
+.bt-fluid span {
+    font-size: 18px;
+    font-weight: 300
+}
+
+.beneficios {
+    padding: 50px 0;
+    background: url(../img/fundo-wave.png) no-repeat;
+    background-size: cover;
+    background-position: 0 145px
+}
+
+.beneficios img {
+    position: relative;
+    left: 82px
+}
+
+.beneficios h2 {
+    font-size: 2.2em;
+    color: #01BE01;
+    margin-bottom: 10px
+}
+
+.beneficios h3 {
+    font-size: 1.5em;
+    margin-bottom: 25px;
+    color: gray
+}
+
+.beneficios h4 {
+    font-size: 1em;
+    color: gray;
+    font-weight: 800
+}
+
+.beneficios p {
+    font-size: 1.1em;
+    margin: 0;
+    color: #605e5e
+}
+
+.beneficios ul {
+    position: relative
+}
+
+.beneficios ul:before {
+    content: '';
+    width: 3px;
+    height: 100%;
+    background-color: #01BE01;
+    position: absolute;
+    left: -9px;
+    bottom: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px
+}
+
+.beneficios li {
+    border-radius: 10px;
+    box-shadow: #b0acac 1px 1px 10px;
+    padding: 10px 30px;
+    margin-bottom: 30px;
+    position: relative;
+    background-color: #fff
+}
+
+.beneficios li:before {
+    content: '1';
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    position: absolute;
+    background-color: #01BE01;
+    left: -31px;
+    top: 24px;
+    font-weight: 700;
+    box-shadow: #b0acac 1px 1px 3px;
+    padding: 5px;
+    border-radius: 50%
+}
+
+.beneficios li:nth-child(2):before {
+    content: '2'
+}
+
+.beneficios li:nth-child(3):before {
+    content: '3'
+}
+
+.aumento-semanal {
+    padding: 50px 0;
+    background: url(../img/fundo-aumento.jpg) no-repeat;
+    background-size: cover
+}
+
+.aumento-semanal h2 {
+    font-size: 2.2em;
+    color: #01BE01;
+    margin-bottom: 10px
+}
+
+.aumento-semanal h3 {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+    color: #fff
+}
+
+.aumento-semanal p {
+    font-size: 1.1em;
+    margin: 0;
+    color: #fff;
+    margin-bottom: 50px;
+    padding: 0 80px;
+    position: relative
+}
+
+.aumento-semanal p:before {
+    content: '';
+    color: #01BE01;
+    text-align: center;
+    font-size: 15px;
+    position: absolute;
+    left: 0;
+    padding: 15px;
+    transform: rotate(-90deg);
+    bottom: 20px;
+    font-weight: 700;
+    letter-spacing: 0
+}
+
+.aumento-semanal p:nth-child(2):before {
+    content: ''
+}
+
+.aumento-semanal p:nth-child(3):before {
+    content: ''
+}
+
+#simulacao {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center
+}
+
+#simulacao img {
+    position: absolute;
+    bottom: 23px;
+    left: 37%;
+    z-index: 2
+}
+
+.aumento-semanal span {
+    background: #01BE01;
+    padding: 12px 0;
+    font-size: 15px;
+    font-weight: 800;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%
+}
+
+#drag {
+    width: 90%;
+    position: relative;
+    z-index: 9999;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto
+}
+
+#drag li {
+    width: 30px;
+    height: 30px;
+    background: #ff000012;
+    border-radius: 50%;
+    border: solid 3px #01BE01;
+    cursor: pointer;
+    position: relative
+}
+
+#drag li:before {
+    content: '1° Mês';
+    font-size: 16px;
+    color: #fff;
+    position: absolute;
+    bottom: -37px;
+    width: 100px;
+    left: -19px;
+    font-weight: 800
+}
+
+#drag li:nth-child(2):before {
+    content: "2° Mês"
+}
+
+#drag li:nth-child(3):before {
+    content: "3° Mês"
+}
+
+#drag li:nth-child(4):before {
+    content: "4° Mês"
+}
+
+#drag li:nth-child(5):before {
+    content: "5° Mês"
+}
+
+#drag li:hover:before {
+    color: #01BE01
+}
+
+#drag li:hover {
+    background: #01BE01
+}
+
+.segunda-semana {
+    width: 128px;
+    display: none
+}
+
+.terceira-semana {
+    width: 161px;
+    display: none
+}
+
+.quarta-semana {
+    width: 175px;
+    display: none
+}
+
+.quinta-semana {
+    width: 185px;
+    display: none
+}
+
+.tms {
+    position: absolute;
+    right: 0;
+    top: 30%;
+    z-index: 3
+}
+
+.tms h4 {
+    font-size: 23px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 15px
+}
+
+.tms b {
+    color: #3eff00
+}
+
+.txt-1,
+.txt-2,
+.txt-3,
+.txt-4 {
+    display: none
+}
+
+.depoimentos {
+    padding: 50px 0;
+    position: relative;
+}
+
+.depoimentos h2 {
+    font-size: 2.2em;
+    color: #01BE01;
+    margin-bottom: 10px;
+    text-transform: uppercase
+}
+
+.depoimentos h3 {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+    color: gray
+}
+
+.depoimentos h4 {
+    font-size: 1.5em;
+    margin-bottom: 0.3em;
+}
+
+.depoimentos h5 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    color: gray;
+}
+
+.depoimentos p {
+    font-size: 1.1em;
+    padding-left: 5px;
+}
+
+.box-depoimento {
+    box-shadow: gray 1px 1px 10px;
+    position: relative;
+    border-radius: 5px;
+    background-color: #01BE01;
+    background-size: cover
+}
+
+.box {
+    padding: 50px;
+    position: relative;
+    background-color: #fff;
+    border-radius: 5px
+}
+
+.box-depoimento img {
+    position: absolute;
+    left: 0;
+    position: absolute;
+    left: -45px;
+    border: solid 5px #fff
+}
+
+.box-depoimento h4,
+.box-depoimento h5 {
+    text-align: center
+}
+
+.box-depoimento h4 {
+    font-size: 1.3em;
+    margin-bottom: 10px
+}
+
+.box-depoimento h5 {
+    font-size: 1em;
+    margin-bottom: 10px;
+    color: gray
+}
+
+.box-depoimento p {
+    font-size: 1em;
+    padding: 20px 10px
+}
+
+.bulets {
+    text-align: center;
+    margin-top: 30px
+}
+
+.bulet-1,
+.bulet-2,
+.bulet-3 {
+    width: 50px;
+    height: 9px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0 10px
+}
+
+.bulet-1 {
+    background: #01BE01;
+    cursor: pointer
+}
+
+.bulet-2 {
+    background: gray;
+    cursor: pointer
+}
+
+.bulet-3 {
+    background: gray;
+    cursor: pointer
+}
+
+.dpm-2 {
+    display: none
+}
+
+.dpm-3 {
+    display: none
+}
+
+.midia {
+    padding: 50px 0;
+    position: relative
+}
+
+.midia h2 {
+    font-size: 2.2em;
+    color: #01BE01;
+    margin-bottom: 10px
+}
+
+.midia h3 {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+    color: gray
+}
+
+.box-midia {}
+
+.box-midia img {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 15px
+}
+
+.box-midia p {
+    font-size: 1em;
+    padding: 20px;
+    background: #fff;
+    border: 2px solid #01BE01;
+    position: relative;
+    border-radius: 5px
+}
+
+.box-midia p:before {
+    content: '';
+    position: absolute;
+    top: -38px;
+    border: 19px solid;
+    border-color: #fff0 #fff0 #01BE01 #fff0;
+    left: 42%
+}
+
+.tabelas {
+    padding: 50px 0;
+    position: relative
+}
+
+.tabelas h2 {
+    font-size: 2.2em;
+    color: #01BE01;
+    margin-bottom: 10px
+}
+
+.tabelas h3 {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+    color: gray
+}
+
+.tabela {
+    border-radius: 10px;
+    background-color: #f6f6fe;
+    text-align: center;
+    background: url(../img/fundo-tabela.jpg);
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 20ms ease-in;
+    transform: scale(1)
+}
+
+.tabela:hover {
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.03);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.03);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.03);
+    transition: all 200ms ease-in;
+    transform: scale(1.03)
+}
+
+.tabelas a {
+    text-decoration: none
+}
+
+.titulo-tabela {
+    margin-bottom: 10px;
+    border-bottom: dashed 1px #fff;
+    padding: 10px 0
+}
+
+.produto-img {
+    background: url(../img/fundo-produto.png) no-repeat;
+    background-size: cover
+}
+
+.produto-img img {
+    position: relative;
+    top: 29px
+}
+
+.titulo-tabela h2 {
+    font-size: 1.8em;
+    text-align: left;
+    color: #fff;
+    padding: 2px 20px;
+    font-weight: 200
+}
+
+.titulo-tabela b {
+    font-size: 2em;
+    text-align: left;
+    color: #ffcf01;
+    font-weight: 800;
+    position: relative;
+    bottom: 11px
+}
+
+.precos {
+    color: #fff;
+    text-align: left;
+    padding: 10px 20px;
+    border-bottom: dashed 1px #fff;
+    margin-bottom: 10px
+}
+
+.precos p {
+    margin-bottom: 0;
+    font-weight: 200
+}
+
+strike {
+    font-weight: 200
+}
+
+.parcelas {
+    font-size: 1.2em;
+    color: #fff
+}
+
+.parcelas b {
+    font-size: 1.5em;
+    color: #ffcf01;
+    font-weight: 800;
+    font-style: italic
+}
+
+.valor {
+    margin: 5px 0;
+    padding-bottom: 30px
+}
+
+.cifrao {
+    font-size: 2em;
+    color: #ffcf01
+}
+
+.reais {
+    font-size: 3.5em;
+    font-weight: 800;
+    color: #ffcf01
+}
+
+.centavos {
+    font-size: 1.8em;
+    font-weight: 800;
+    color: #ffcf01
+}
+
+.bt-tabela {
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 700;
+    padding: 20px;
+    position: relative
+}
+
+.bt-tabela:before {
+    content: '';
+    width: 100%;
+    height: 6px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    top: -20px;
+    transform: rotate(3deg)
+}
+
+.seguranca {
+    padding: 50px 0;
+    position: relative;
+    background: url(../img/fundo-seguranca.png) no-repeat;
+    background-size: cover
+}
+
+.seguranca li {
+    margin-bottom: 30px;
+    font-size: 1.2em
+}
+
+.seguranca i {
+    font-size: 35px;
+    margin-right: 5px;
+    color: #01BE01
+}
+
+.seguranca h2 {
+    font-size: 2.2em;
+    color: #01BE01;
+    margin-bottom: 10px
+}
+
+.seguranca h3 {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+    color: gray
+}
+
+.fa-shield-alt {
+    border: solid 2px #01BE01;
+    padding: 20px;
+    border-radius: 50%
+}
+
+.garantia {
+    padding: 50px 0;
+    background: url(../img/fundo-aumento.jpg) no-repeat;
+    background-size: auto;
+    background-size: cover
+}
+
+.garantia h2 {
+    font-size: 1.8em;
+    color: #fff
+}
+
+.garantia p {
+    font-size: 1.2em;
+    color: #fff
+}
+
+.perguntas {
+    padding: 50px 0;
+    background-color: #fff
+}
+
+.perguntas h2 {
+    font-size: 2.2em;
+    color: #01BE01;
+    margin-bottom: 10px
+}
+
+.perguntas h3 {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+    color: gray
+}
+
+.box-pergunta {
+    background-color: rgba(234, 234, 243, .68);
+    border-left: solid 4px #01BE01;
+    margin-bottom: 30px;
+    box-shadow: 0 6px 2px 1px rgba(0, 0, 0, .1)
+}
+
+.box-pergunta h4 {
+    font-size: 19px;
+    color: #01BE01;
+    margin: 10px;
+    font-weight: 700
+}
+
+.box-pergunta p {
+    font-size: 15px;
+    margin: 10px
+}
+
+footer {
+    background: url(../img/fundo-aumento.jpg) no-repeat;
+    background-size: auto;
+    background-size: cover;
+    padding: 50px 0;
+    color: #fff
+}
+
+footer span {
+    font-weight: 700;
+    margin-bottom: 30px;
+    display: block
+}
+
+footer p,
+footer a {
+    font-size: 12px;
+    color: #fff
+}
+
+.borda {
+    border-bottom: solid 1px #fff
+}
+
+.indicacao {
+    background: url(../img/fundo-aumento.jpg) no-repeat;
+    background-size: auto;
+    background-size: cover;
+    padding: 50px 0;
+    color: #fff
+}
+
+.indicacao h3 {
+    margin-top: 15px
+}
+
+@media(max-width:992px) {
+    .header p {
+        font-size: 2.3em
+    }
+    .header h1 {
+        font-size: 2.5em
+    }
+    .loader p {
+        font-size: 1.1em;
+        font-style: normal
+    }
+    .segunda-semana {
+        width: 125px
+    }
+    .terceira-semana {
+        width: 157px
+    }
+    .quarta-semana {
+        width: 165px
+    }
+    .quinta-semana {
+        width: 170px
+    }
+}
+
+@media(max-width:768px) {
+    .header p {
+        font-size: 1.7em
+    }
+    .header h1 {
+        font-size: 2.3em
+    }
+    .loader p {
+        font-size: 1.1em;
+        font-style: normal
+    }
+    .anvisa h2 {
+        font-size: 19px!important
+    }
+    .mb-mobile {
+        margin-bottom: 40px
+    }
+    .segunda-semana {
+        width: 125px
+    }
+    .terceira-semana {
+        width: 157px
+    }
+    .quarta-semana {
+        width: 165px
+    }
+    .quinta-semana {
+        width: 170px
+    }
+    #drag {
+        margin: 35px auto;
+        width: 100%
+    }
+    .bt-fluid {
+        font-size: 1.3em
+    }
+    .bt-fluid span {
+        font-size: 14px
+    }
+    .loader p {
+        font-size: 12px
+    }
+    .medida {
+        font-size: 2em
+    }
+    .como-funciona h2 {
+        font-size: 1.8em
+    }
+    .beneficios h2 {
+        font-size: 1.5em
+    }
+    .midia h2 {
+        font-size: 1.5em
+    }
+    .midia h3 {
+        font-size: 1.3em
+    }
+    .seguranca h2 {
+        font-size: 1.5em
+    }
+    .seguranca h3 {
+        font-size: 1.3em
+    }
+}
+
+@media(max-width:576px) {
+    .header p {
+        font-size: 1.7em
+    }
+    .header h1 {
+        font-size: 2.3em
+    }
+    .loader p {
+        font-size: 19px
+    }
+    .clock {
+        font-size: 11px
+    }
+    .bt-rastrear {
+        width: 95%
+    }
+    .logo {
+        width: 40%
+    }
+    .aumento-semanal h2 {
+        font-size: 1.6em
+    }
+    .aumento-semanal h3 {
+        font-size: 1.3em
+    }
+    .segunda-semana {
+        width: 125px
+    }
+    .terceira-semana {
+        width: 157px
+    }
+    .quarta-semana {
+        width: 165px
+    }
+    .quinta-semana {
+        width: 170px
+    }
+    #drag {
+        margin: 35px auto;
+        width: 80%
+    }
+    .bt-fluid {
+        font-size: 1.3em
+    }
+    .bt-fluid span {
+        font-size: 14px
+    }
+    .medida {
+        font-size: 1.5em
+    }
+    .oquee h3 {
+        color: #393636
+    }
+    .como-funciona h2 {
+        font-size: 1.8em
+    }
+    .como-funciona img {
+        width: 50%
+    }
+    .beneficios h2 {
+        font-size: 1.5em
+    }
+    .beneficios img {
+        left: 0;
+        width: 70%
+    }
+    .midia h2 {
+        font-size: 1.5em
+    }
+    .midia h3 {
+        font-size: 1.3em
+    }
+    .tabelas h2 {
+        font-size: 1.8em
+    }
+    .tabelas h3 {
+        font-size: 1.3em
+    }
+    .seguranca h2 {
+        font-size: 1.2em
+    }
+    .seguranca h3 {
+        font-size: 1.1em
+    }
+    .garantia h2 {
+        font-size: 1.7em
+    }
+    .perguntas h2 {
+        font-size: 1.5em
+    }
+    .perguntas h3 {
+        font-size: 1.1em
+    }
+    .box-pergunta {
+        margin-bottom: 30px
+    }
+}
+
+@media(max-width:480px) {
+    .header {
+        padding: 15px 5px 70px
+    }
+    .header p {
+        font-size: 1.7em
+    }
+    .header h1 {
+        font-size: 2.3em
+    }
+    .loader p {
+        font-size: 19px
+    }
+    .clock {
+        font-size: 11px
+    }
+    .bt-rastrear {
+        width: 95%;
+        font-size: 10px;
+        font-weight: 800
+    }
+    .logo {
+        width: 40%
+    }
+    .header .bt-fluid {
+        margin-bottom: 35px
+    }
+    .aumento-semanal h2 {
+        font-size: 1.6em
+    }
+    .aumento-semanal h3 {
+        font-size: 1.3em
+    }
+    .segunda-semana {
+        width: 125px
+    }
+    .terceira-semana {
+        width: 130px
+    }
+    .quarta-semana {
+        width: 140px
+    }
+    .quinta-semana {
+        width: 150px
+    }
+    #drag {
+        margin: 35px auto;
+        width: 78%
+    }
+    .bt-fluid {
+        font-size: 1.3em
+    }
+    .bt-fluid span {
+        font-size: 14px
+    }
+    .medida {
+        font-size: 1.5em
+    }
+    .oquee h3 {
+        color: #393636
+    }
+    .oquee h2 {
+        font-size: 1.5em
+    }
+    .como-funciona h2 {
+        font-size: 1.8em
+    }
+    .como-funciona img {
+        width: 50%
+    }
+    .beneficios h2 {
+        font-size: 1.5em
+    }
+    .beneficios img {
+        left: 0;
+        width: 70%
+    }
+    .midia h2 {
+        font-size: 1.5em
+    }
+    .midia h3 {
+        font-size: 1.3em
+    }
+    .tabelas h2 {
+        font-size: 1.8em
+    }
+    .tabelas h3 {
+        font-size: 1.3em
+    }
+    .seguranca h2 {
+        font-size: 1.2em
+    }
+    .seguranca h3 {
+        font-size: 1.1em
+    }
+    .garantia h2 {
+        font-size: 1.7em
+    }
+    .perguntas h2 {
+        font-size: 1.5em
+    }
+    .perguntas h3 {
+        font-size: 1.1em
+    }
+    .box-pergunta {
+        margin-bottom: 30px
+    }
+}
